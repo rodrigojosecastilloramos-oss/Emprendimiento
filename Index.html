@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Inicio</title>
+  </head>
+  <body>
+    <!--Menú-->
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html">Repostería Rodry Cast</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="Index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="diseños.html"
+                  >Diseños</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="pedidosenlinea.html"
+                  >Pedídos en Linea</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="videos.html"
+                  >Videos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="ubicacion.html"
+                  >Ubicación</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="Buscar">
+              <input
+                class="form-control me-2"
+                type="Buscar"
+                placeholder="Buscar"
+                aria-label="Buscar"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscador
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Carrusel-->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagen/9.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="imagen/8.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="imagen/7.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="imagen/6.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="imagen/88.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br />
+    <!--tarjeta-->
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="imagen/1.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Oferta:</h5>
+            <p class="card-text">
+             Nuestras ofertas aplican restricciones.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="imagen/2.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Horario de comida:</h5>
+            <p class="card-text">
+              Nuestros horarios solo son para la Tienda en linea.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="imagen/3.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Ofertas:</h5>
+            <p class="card-text">
+              Nuestras ofertas aplican restricciones.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="imagen/4.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Calidad de los productos</h5>
+            <p class="card-text">
+              Nuestra calidad en los productos es 100% garantizada.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

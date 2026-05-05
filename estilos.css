@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(86, 87, 87);
+}
+.jh {
+display: flex;
+justify-content:flex-end;
+text-align: center;
+position: relative;
+bottom: 90px;
+right: 300px;
+}
+img{
+    width: 100px;
+}
+.formulario{
+padding: 100px;
+margin: 50px;
+}
+#accordionExample{
+    background-color: aqua;
+}
